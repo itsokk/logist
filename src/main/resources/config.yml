@@ -1,0 +1,9 @@
+logging:
+  enabled: true
+  log-player-quit: true
+  log-player-join: true
+  log-player-death: true
+  log-player-advancement: true
+webhook:
+  url: ""
+  avatar: "https://media.discordapp.net/attachments/639718321436098560/965671593097449502/unknown.png"

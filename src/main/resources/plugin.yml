@@ -1,0 +1,4 @@
+name: logist
+version: '${project.version}'
+main: me.itsokk.logist.Logist
+api-version: 1.18
