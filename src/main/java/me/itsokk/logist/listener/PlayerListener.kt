@@ -9,8 +9,7 @@ import org.bukkit.event.player.AsyncPlayerPreLoginEvent
 import org.bukkit.event.player.PlayerAdvancementDoneEvent
 import org.bukkit.event.player.PlayerQuitEvent
 
-class PlayerListener(c: Configuration): Listener {
-    var config = c
+class PlayerListener(val config: Configuration): Listener {
     @EventHandler
     fun onPlayerQuit(event: PlayerQuitEvent) {
         if(config.getBoolean("logging.enabled") && config.getBoolean("logging.log-player-quit")) {
